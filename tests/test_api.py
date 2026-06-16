@@ -28,8 +28,8 @@ from unittest.mock import MagicMock, patch
 
 from fastapi.testclient import TestClient
 
-import main
-from main import app
+import app.main as main
+from app.main import app
 
 
 # Fixtures
